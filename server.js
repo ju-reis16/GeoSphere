@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-const alunoRoutes = require('./routes/alunoRoutes');
+const alunoRoutes = require('./src/Routes/alunoRoutes');
 
 app.use('/aluno', alunoRoutes);
 
